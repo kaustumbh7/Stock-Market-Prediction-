@@ -6,13 +6,11 @@ Created on Sun Mar 11 21:33:41 2018
 @author: KJ
 """
 
-# Recurrent Neural Network
+# Recurrent Neural Network model using 3 parameters 
 
 
 
-# Part 1 - Data Preprocessing
-
-# Importing the libraries
+# Data Preprocessing
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -40,7 +38,7 @@ X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
 
 
 
-# Part 2 - Building the RNN
+# Building the RNN
 
 # Importing the Keras libraries and packages
 from keras.models import Sequential
@@ -78,7 +76,7 @@ regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
 
 
 
-# Part 3 - Making the predictions and visualising the results
+# Making the predictions and visualising the results
 
 # Getting the real stock price of 2017
 dataset_test = pd.read_csv('test.csv')
