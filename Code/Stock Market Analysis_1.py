@@ -6,7 +6,7 @@ Created on Sun Mar 11 21:33:41 2018
 @author: KJ
 """
 
-# Recurrent Neural Network model using 3 parameters 
+# Recurrent Neural Network model using 1 parameter 
 
 
 
